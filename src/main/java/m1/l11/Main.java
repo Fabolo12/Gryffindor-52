@@ -4,6 +4,7 @@ public class Main {
     static void main() {
         System.out.printf("***Hello World!***%n");
         System.out.println("Hello, World!");
+        System.out.println("from dev environment");
     }
 
     private static void printHello() {
