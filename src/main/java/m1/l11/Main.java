@@ -7,6 +7,6 @@ public class Main {
     }
 
     private static void printHello() {
-        System.out.println("Hello, World!");
+        System.out.println("Hello, World!---");
     }
 }
