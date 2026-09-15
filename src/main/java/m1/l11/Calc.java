@@ -6,5 +6,11 @@ public class Calc {
         int b = 10;
         int sum = a + b;
         System.out.println("Sum: " + sum);
+
+        int subtract = b - a;
+        System.out.println("Subtract: " + subtract);
+
+        int multiply = a * b;
+        System.out.println("Multiply: " + multiply);
     }
 }
