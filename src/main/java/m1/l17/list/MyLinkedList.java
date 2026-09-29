@@ -2,7 +2,7 @@ package m1.l17.list;
 
 import java.util.Iterator;
 
-public class MyLinkedList<T> {
+public class MyLinkedList<T> implements MyList<T> {
 
     private MyNode head;
 

@@ -2,7 +2,6 @@ package m1.l17.list;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.List;
 
 public class Main {
@@ -23,7 +22,7 @@ public class Main {
         System.out.println();
 
         System.out.println("MyArrayList:");
-        final MyArrayList<String> myList = new MyArrayList<>();
+        final MyList<String> myList = new MyArrayList<>();
         myList.add("Hello");
         myList.add("World");
         System.out.println(myList);
@@ -38,7 +37,7 @@ public class Main {
         System.out.println();
 
         System.out.println("MyLinkedList:");
-        final MyLinkedList<String> myLinkedList = new MyLinkedList<>();
+        final MyList<String> myLinkedList = new MyLinkedList<>();
         myLinkedList.add("Hello");
         myLinkedList.add("World");
         System.out.println(myLinkedList);
@@ -55,6 +54,8 @@ public class Main {
         }
         myLinkedList.addFirst("First");
         System.out.println("After adding first: " + myLinkedList);
+
+        final MyList myList1 = new MyList();
 
     }
 }

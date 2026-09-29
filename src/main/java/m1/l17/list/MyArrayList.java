@@ -3,7 +3,7 @@ package m1.l17.list;
 import java.util.Arrays;
 import java.util.Iterator;
 
-public class MyArrayList<T> {
+public class MyArrayList<T> implements MyList<T> {
     private T[] array;
 
     private int size;
@@ -66,6 +66,10 @@ public class MyArrayList<T> {
                 return array[currentIndex++];
             }
         };
+    }
+
+    public void addFirst(T item) {
+        // TODO: Implement addFirst method for MyArrayList
     }
 
     @Override
