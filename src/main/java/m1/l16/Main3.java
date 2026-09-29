@@ -1,9 +1,7 @@
-package m1.l15;
+package m1.l16;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
-import java.util.ListIterator;
 
 public class Main3 {
     static void main() {

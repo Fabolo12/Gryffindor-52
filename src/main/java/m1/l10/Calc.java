@@ -1,4 +1,4 @@
-package m1.l11;
+package m1.l10;
 
 public class Calc {
     static void main() {

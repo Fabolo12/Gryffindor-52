@@ -1,4 +1,4 @@
-package m1.l15;
+package m1.l16;
 
 public class Main1 {
     static void main() {
