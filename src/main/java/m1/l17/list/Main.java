@@ -54,8 +54,5 @@ public class Main {
         }
         myLinkedList.addFirst("First");
         System.out.println("After adding first: " + myLinkedList);
-
-        final MyList myList1 = new MyList();
-
     }
 }
