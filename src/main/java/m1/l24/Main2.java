@@ -7,8 +7,8 @@ import java.io.IOException;
 
 public class Main2 {
     static void main() {
-        // D:\Works\Gryffindor-52\src\main\java\m1\l24\Main2.java -> absolute path
-        // src/main/java/m1/l24/Main2.java -> relative path
+        // D:\Works\Gryffindor-52\src\main\java\m1\l24\Server.java -> absolute path
+        // src/main/java/m1/l24/Server.java -> relative path
 
         final String fileName = "src/main/java/m1/l24/log.txt";
         final String fileToRead = "l24/log.txt";
